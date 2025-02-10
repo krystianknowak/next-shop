@@ -6,13 +6,13 @@ export const ProductCoverImage = ({
 	src: string;
 }) => {
 	return (
-		<div className="relative aspect-square h-full w-full bg-slate-50 transition-colors hover:bg-slate-100">
+		<div className="aspect-square h-full w-full rounded-md bg-slate-50 p-4 transition-colors hover:bg-slate-100">
 			<img
 				src={src}
 				alt={alt}
 				width={320}
 				height={320}
-				className="inset-0 h-full w-full object-cover p-4"
+				className="h-full w-full rounded-sm object-cover object-center"
 			/>
 		</div>
 	);
