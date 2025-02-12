@@ -1,6 +1,3 @@
-import { ProductCoverImage } from "@/ui/atoms/ProductCoverImage";
-import { ProductListItemDescription } from "@/ui/atoms/ProductListItemDescription";
-import { ProductListItem } from "@/ui/molecules/ProductListItem";
 import { ProductItemsList } from "@/ui/organizms/ProductItemsList";
 import { Product } from "@/ui/types";
 

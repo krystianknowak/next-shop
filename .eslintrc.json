@@ -11,5 +11,17 @@
 		"plugin:import/typescript",
 		"next/core-web-vitals",
 		"prettier"
-	]
+	],
+	"rules": {
+		"no-unused-vars": [
+			"error",
+			{
+				"vars": "all",
+				"args": "after-used",
+				"caughtErrors": "all",
+				"ignoreRestSiblings": false,
+				"reportUsedIgnorePattern": false
+			}
+		]
+	}
 }
